@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "naacl-2024"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "naacl_2024"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+pandas = "^2.1.3"
+more-itertools = "^10.1.0"
+openai = "^1.3.8"
+backoff = "^2.2.1"
+evaluate = "^0.4.1"
+scikit-learn = "^1.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.18.1"
+pre-commit = "^3.5.0"
+mypy = "^1.7.1"
+pylint = "^3.0.2"
+ipdb = "^0.13.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
