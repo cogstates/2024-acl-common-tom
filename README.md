@@ -25,8 +25,8 @@ common-tom/
 |  |- cg/                      - base common ground corpus.
 |  |- prompts/                 - prompts for zero-shot experiments.
 |  |- questions/               - the common-tom corpus questions.
-|- src/                        - additional utilities.
-|  |- ...
+|- src/
+|  |- ...                      - additional utilities.
 ```
 
 ## Citation
