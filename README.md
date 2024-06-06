@@ -1,6 +1,6 @@
 # Common-ToM
 
-This is the repository corresponding to [Views Are My Own, But Also Yours: Benchmarking Theory of Mind using Common Ground](https://arxiv.org/abs/2403.02451) which was accepted to ACL 2024 Findings. It contains the code and data used to generate Common-ToM, a theory of mind (ToM) question answering corpus based on common ground. It also contains the scripts used for the zero-shot experiments reported.
+This is the repository corresponding to [Views Are My Own, but Also Yours: Benchmarking Theory of Mind Using Common Ground](https://arxiv.org/abs/2403.02451), which was accepted to ACL 2024 Findings. It contains the code and data used to generate Common-ToM, a theory of mind (ToM) question answering corpus based on common ground. It also contains the scripts used for the zero-shot experiments reported.
 
 ## Installation
 Supposing [conda](https://docs.conda.io/en/latest/) and [poetry](https://python-poetry.org) are installed, the project dependencies can be setup using the following commands.
